@@ -1,0 +1,27 @@
+.bannerHOME {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerHOME__coltext {
+    flex-basis: 50%;
+    max-width: 655px;
+    flex-wrap: wrap;
+}
+
+.bannerHOME__colImg {
+    flex-basis: 0;
+    position: absolute;
+    top: -30%;
+    opacity: none;
+    z-index: -20;
+}
+
+.bannerHOME__subtitle {
+    margin-top: 30px;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 20px;
+    color: #1F1F1F;
+}
+

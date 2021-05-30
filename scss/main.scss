@@ -1,0 +1,45 @@
+* {
+    Margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #e9e7e7;
+}
+
+.container-fluid {
+    padding: 0 50px 0 50px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h1 {
+    color: #1F1F1F;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #1F1F1F;
+    font-size: 43px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+//secciones//
+@import 'secciones/index';
+@import 'secciones/footer';
+@import 'secciones/banner';
+@import 'secciones/sectionskills';
+@import 'secciones/contacto';
+@import 'secciones/responsive';
+
+
+

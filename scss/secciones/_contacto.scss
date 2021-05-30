@@ -1,0 +1,59 @@
+.contactBG {
+    background-color: #FECB46;
+}
+
+.contactTitle {
+    padding-top: 0;
+    background-size: 80%;
+    background-position: center;
+    height: 0;
+    background-repeat: no-repeat;
+}
+
+.sectionContactus {
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionContactus__coltext {
+    flex-basis: 40%;
+    font-family: "Anonymous Pro", monospace;
+    color: #1F1F1F;
+    font-size: 18px;
+}
+
+.sectionContactus__title {
+    font-family: "Montserrat", sans-serif;
+    color: #1F1F1F;
+    font-size: 43px;
+}
+
+.sectionContactus__colform {
+    flex-basis: 40%;
+}
+
+.contactform {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    margin-top: 10px;
+    padding: 10px;
+    border: #1F1F1F 2px solid;
+    background-color: transparent;
+    font-family: "Anonymous Pro", monospace;
+    color: #1F1F1F;
+}
+
+textarea {
+    height: 100px;
+}
+

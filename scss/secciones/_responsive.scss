@@ -1,0 +1,337 @@
+@media all and (min-width: 768px) and (max-width: 1280px) {
+    h2 {
+        color: #FECB46;
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .bannerHOME__colImg {
+        display: none;
+    }
+
+    .bannerHOME {
+        align-items: center;
+    }
+
+    .bannerHOME__coltext {
+        text-align: center;
+    }
+
+
+    /* HOME CONTACT US */
+    .sectionContactus {
+        margin-top: 30px;
+        padding: 50px 0 50px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contactform {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sectionFooter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sectionFooter__logo {
+        flex-basis: 10%;
+        text-align: center;
+    }
+
+    .sectionFooter__logo.img {
+        max-width: 80px;
+        width: 60%;
+    }
+
+    .sectionFooter__copy {
+        flex-basis: 55%;
+        font-family: "Anonymous Pro", monospace;
+        color: #F4F4F4;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sectionFooter__rss {
+        flex-basis: 15%;
+        text-align: center;
+    }
+
+    .sectionFooter__rss__icon {
+        padding: 8px;
+    }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+    .container-fluid {
+        padding: 0 28px 0 28px !important;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .bannerHOME__colImg {
+        display: none;
+    }
+
+    .bannerHOME {
+        align-items: center;
+    }
+
+    .bannerHOME__coltext {
+        text-align: center;
+    }
+
+    .btn-primary-bad {
+        width: 100%;
+    }
+
+    .btn-ligth {
+        width: 90%;
+    }
+
+    .pharagraph-m {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .sectionContactus {
+        margin-top: 10px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectionContactus__coltext {
+        flex-basis: 100%;
+        font-family: "Anonymous Pro", monospace;
+        color: #1F1F1F;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .sectionContactus__title {
+        font-family: "Montserrat", sans-serif;
+        color: #1F1F1F;
+        font-size: 35px;
+    }
+
+    .sectionContactus__colform {
+        flex-basis: 100%;
+        width: 400px;
+    }
+
+    .contactform {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer {
+        background-color: #1F1F1F;
+        height: auto;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .sectionFooter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sectionFooter__logo {
+        flex-basis: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .sectionFooter__logo.img {
+        max-width: 87px;
+        width: 100%;
+    }
+
+    .sectionFooter__copy {
+        flex-basis: 100%;
+        font-family: "Anonymous Pro", monospace;
+        color: #F4F4F4;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sectionFooter__rss {
+        flex-basis: 100%;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .sectionFooter__rss__icon {
+        padding: 10px;
+    }
+
+}
+
+@media all and (max-width: 479px) {
+    .container-fluid {
+        padding: 0 28px 0 28px !important;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .bannerInicio__colImg {
+        display: none;
+    }
+
+    .bannerInicio {
+        align-items: center;
+    }
+
+    .bannerInicio__coltext {
+        text-align: center;
+    }
+
+    .pharagraph-m {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .internalSections {
+        margin: 0 20px 0 20px;
+    }
+
+
+
+    .btn-hero:hover {
+        background-color: #1F1F1F;
+        color: #FECB46;
+        border: 2px solid #FECB46;
+    }
+
+    .btn-primary-bad {
+        width: 100%;
+    }
+
+
+    .contactTitle {
+        padding-top: 40px;
+        background-image: url(../img/CONTACT-US.svg);
+        background-size: 100%;
+        background-position: center;
+        height: 120px;
+        background-repeat: no-repeat;
+    }
+
+    .sectionContactus {
+        margin-top: 10px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectionContactus__coltext {
+        flex-basis: 100%;
+        font-family: "Anonymous Pro", monospace;
+        color: #1F1F1F;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .sectionContactus__title {
+        font-family: "Montserrat", sans-serif;
+        color: #1F1F1F;
+        font-size: 35px;
+    }
+
+    .sectionContactus__colform {
+        flex-basis: 100%;
+        width: 270px;
+    }
+
+    .contactform {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer {
+        background-color: #1F1F1F;
+        height: auto;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .sectionFooter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sectionFooter__logo {
+        flex-basis: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .sectionFooter__logo.img {
+        max-width: 50px;
+        width: 50%;
+    }
+
+    .sectionFooter__copy {
+        flex-basis: 100%;
+        font-family: "Anonymous Pro", monospace;
+        color: #F4F4F4;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sectionFooter__rss {
+        flex-basis: 100%;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .sectionFooter__rss__icon {
+        padding: 10px;
+    }
+
+
+}
